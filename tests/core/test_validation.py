@@ -8,7 +8,7 @@ from eth_abi.exceptions import (
     ABITypeError,
 )
 
-from eth_account import (
+from celo_eth_account import (
     Account,
 )
 

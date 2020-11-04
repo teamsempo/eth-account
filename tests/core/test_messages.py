@@ -4,7 +4,7 @@ from eth_utils import (
     ValidationError,
 )
 
-from eth_account.messages import (
+from celo_eth_account.messages import (
     SignableMessage,
     encode_intended_validator,
 )

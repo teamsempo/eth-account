@@ -3,7 +3,7 @@ from abc import (
     abstractmethod,
 )
 
-from eth_account.messages import (
+from celo_eth_account.messages import (
     SignableMessage,
 )
 

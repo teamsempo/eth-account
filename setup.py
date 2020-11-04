@@ -45,7 +45,7 @@ with open('./README.md') as readme:
 
 
 setup(
-    name='eth-account',
+    name='celo-eth-account',
     # *IMPORTANT*: Don't manually change the version here. Use `make bump`, as described in readme
     version='0.5.4',
     description="""eth-account: Sign Ethereum transactions and messages with local private keys""",

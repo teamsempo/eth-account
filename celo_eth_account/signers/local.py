@@ -1,6 +1,6 @@
 import warnings
 
-from eth_account.signers.base import (
+from celo_eth_account.signers.base import (
     BaseAccount,
 )
 

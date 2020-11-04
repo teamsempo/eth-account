@@ -23,12 +23,12 @@ from hexbytes import (
     HexBytes,
 )
 
-from eth_account._utils.structured_data.hashing import (
+from celo_eth_account._utils.structured_data.hashing import (
     hash_domain,
     hash_message as hash_eip712_message,
     load_and_validate_structured_message,
 )
-from eth_account._utils.validation import (
+from celo_eth_account._utils.validation import (
     is_valid_address,
 )
 
@@ -180,7 +180,7 @@ def encode_defunct(
 
     .. doctest:: python
 
-        >>> from eth_account.messages import encode_defunct
+        >>> from celo_eth_account.messages import encode_defunct
         >>> from eth_utils.curried import to_hex, to_bytes
 
         >>> message_text = "I♥SF"

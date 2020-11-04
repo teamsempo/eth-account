@@ -26,10 +26,10 @@ from hexbytes import (
     HexBytes,
 )
 
-from eth_account import (
+from celo_eth_account import (
     Account,
 )
-from eth_account.messages import (
+from celo_eth_account.messages import (
     defunct_hash_message,
     encode_defunct,
     encode_intended_validator,
@@ -132,7 +132,7 @@ def test_eth_account_default_kdf(acct, monkeypatch):
     assert os.getenv('ETH_ACCOUNT_KDF') == 'pbkdf2'
 
     import importlib
-    from eth_account import account
+    from celo_eth_account import account
     importlib.reload(account)
     assert account.Account._default_kdf == 'pbkdf2'
 

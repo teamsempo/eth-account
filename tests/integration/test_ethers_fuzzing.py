@@ -6,10 +6,10 @@ from hypothesis import (
 import pytest
 import subprocess
 
-from eth_account import (
+from celo_eth_account import (
     Account,
 )
-from eth_account.hdaccount.mnemonic import (
+from celo_eth_account.hdaccount.mnemonic import (
     VALID_ENTROPY_SIZES,
     Mnemonic,
 )
